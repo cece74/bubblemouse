@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* @package phpBB Extension - Bubble Mouse - English
+* @package phpBB Extension - Bubble Mouse - Dutch
 * @copyright (c) 2015
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 * Dutch translation by Dutch Translators (https://github.com/dutch-translators)
