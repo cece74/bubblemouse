@@ -16,7 +16,7 @@ class crizzo_maxwidthswitch_migrations extends \phpbb\db\migration\migration
 		return array(
 			'add_columns'		=> array(
 				$this->table_prefix . 'users'	=> array(
-					'user_maxwidth'		=> array('BOOL', 0, 'after' => 'user_options'),
+					'bubblemouse'		=> array('BOOL', 0, 'after' => 'user_options'),
 				),
 			),
 		);
@@ -27,7 +27,7 @@ class crizzo_maxwidthswitch_migrations extends \phpbb\db\migration\migration
 		return array(
 			'drop_columns'		=> array(
 				$this->table_prefix . 'users'	=> array(
-					'user_maxwidth',
+					'bubblemouse',
 				),
 			),
 		);
