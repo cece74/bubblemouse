@@ -1,9 +1,0 @@
-services:
-    cece74.bubblemouse.listener:
-        class: cece74\bubblemouse\event\listener
-        arguments:
-            - @request
-            - @template
-            - @user
-        tags:
-            - { name: event.listener }
